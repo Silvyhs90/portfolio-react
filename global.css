@@ -17,3 +17,12 @@
 {
     background-color: black!important;
 }
+
+#nprogress .bar{
+    background-color: deeppink!important;
+}
+
+#nprogress .spinner-icon{
+    border-top-color: gold;
+    border-left-color: gold;
+}
