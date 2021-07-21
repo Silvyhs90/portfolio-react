@@ -148,3 +148,42 @@ export const lang = [
         level: 'Escrito intermedio / oral Intermedio'
     }
 ]
+
+export const projects =[
+    {
+        name:'Sitio web peliculas',
+        description:'Consumiendo API de peliculas con ReactJS',
+        image:'portfolio1.png',
+        site:'https://github.com/Silvyhs90/moviesapp'
+    },
+    {
+        name:'Sitio web Personal',
+        description:'Web personal hecho con Html/Css/Bootstrap',
+        image:'portfolio2.png',
+        site:'https://github.com/Silvyhs90/webpersonalsilvina'
+    },
+    {
+        name:'The Smiths WebPage',
+        description:'FanPage Hecha con Html/Css/Bootstrap',
+        image:'portfolio3.png',
+        site:'https://github.com/Silvyhs90/thesmithsweb'
+    },
+    {
+        name:'Sitio web Juego preguntas/respuestas',
+        description:'Webpage hecha con Html/Css/Bootstrap/Javascript',
+        image:'portfolio4.png',
+        site:'https://github.com/Silvyhs90/friends'
+    },
+    {
+        name:'Sitio web Musica',
+        description:'Webpage hecha con Html/Css/Bootstrap/Php/Javascript',
+        image:'portfolio5.png',
+        site:'https://github.com/Silvyhs90/musicworld2'
+    },
+    {
+        name:'Juego en Java',
+        description:'Juego realizado con Java en Netbeans',
+        image:'portfolio6.png',
+        site:'https://github.com/Silvyhs90/juegojava1'
+    }
+]

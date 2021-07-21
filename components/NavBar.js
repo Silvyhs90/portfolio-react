@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 const NavBar = () => (
-<nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav className="container navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container">
             <Link href="/">
             <a className="navbar-brand">Silvina Saucedo Portfolio
