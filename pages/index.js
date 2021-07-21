@@ -1,19 +1,19 @@
 import Layout from "../components/Layout";
+import {skills,experiences,lang,schools,academics} from '../profile';
 
 const Index= () => (
     <Layout>
-
-        {/*Header card */}
+        {/* Header card */}
         <header className="row">
             <div className="col-md-12">
                 <div className="card card-body bg-primary text-light">
                     <div className="row">
                         <div className="col-md-4">
-                        <img src="yo.png" alt="imagen" className="img-fluid"/>
+                            <img src="yo.png" alt="imagen" className="img-fluid"/>
                         </div>
                         <div className="col-md-8">
-                        <h1>Silvina Saucedo</h1>
-                        <h3>FrontEnd Developer</h3>
+                            <h1>Silvina Saucedo</h1>
+                            <h3>FrontEnd Developer</h3>
                         <p>
                         Mi nombre es Silvina Saucedo, tengo 30 años, estoy cursando la carrera de Analista de Sistemas de Computación. Cuento con conocimientos en Desarrollo Front y Back-end, utilizando tecnologías 
                         como JAVASCRIPT, JAVA, POO, MySQL, HTML, CSS, Bootstrap, PHP, C#, Git y Paquete Office.
@@ -23,31 +23,106 @@ const Index= () => (
                         </div>
                     </div>
                 </div>
-
             </div>
         </header>
 
         {/**Second section */}
-        <div className="row py-2">
-            <div className="col-md-4">
+        <section className="row">
+            <div className="col-md-4 py-2">
                 <div className="card bg-light">
                     <div className="card-body">
                             <h1>Habilidades</h1>
-
-                            <div className="progress">
-                                <div className="progress-bar" role="progressbar" style={{width:'80%'}}></div>
-                            </div>
-                    </div>
-                </div>
-                <div className="col-md-8">
-                    <div className="card bg-light">
-                        <div className="card-body">
-                            <h1>Experiencia Laboral</h1>
-                        </div>
+                            {
+                                skills.map(({skill, percentage}, i) => (
+                                    <div className="py-3" key={i}>
+                                       <h5>{skill}</h5>
+                                            <div className="progress">
+                                                <div className="progress-bar" 
+                                                role="progressbar"
+                                                 style={{width:`${percentage}%`}}>
+                                                 </div>
+                                            </div>                                 
+                                        </div>
+                                ))}
                     </div>
                 </div>
             </div>
-        </div>
+                <div className="col-md-8 py-2">
+                    <div className="card bg-light">
+                        <div className="card-body">
+                            <h1>Experiencia Laboral</h1>
+                            <ul>
+                                {
+                                    experiences.map(({title,description,from,to}, index) =>(
+                                        <li key={index}>
+                                            <h3>{title}</h3>
+                                            <h5>{from}-{to}</h5>
+                                            <p>{description}</p>
+                                        </li>
+                                    ))}
+                            </ul>
+                        </div>
+                        <div className="card-body py-2">
+                            <h1>Formacion Academica</h1>
+                        <ul className="py-2">
+                                {
+                                    schools.map(({school,name,from,to}, index) =>(
+                                        <li key={index}>
+                                            <h3>{name}</h3>
+                                            <h4>{school}</h4>
+                                            <h5>{from}-{to}</h5>
+                                        </li>
+                                    ))}
+                            </ul>
+                        </div>
+                        <div className="card-body py-2">
+                            <h1>Cursos</h1>
+                            <ul className="py-2 my-2">
+                                {
+                                    academics.map(({name,where,from,to}, index) =>(
+                                        <li key={index}>
+                                            <h3>{name}</h3>
+                                            <h4>{where}</h4>
+                                            <h5>{from}-{to}</h5>
+                                        </li>
+                                    ))}
+                            </ul>
+                        </div>
+                        <div className="card-body py-2">
+                            <h1>Idiomas</h1>
+                            <ul className="py-2 my-2">
+                                {
+                                    lang.map(({name,level}, index) =>(
+                                        <li key={index}>
+                                            <h3>{name}</h3>
+                                            <h4>{level}</h4>
+                                        </li>
+                                    ))}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </section>
+   
+   {/*Portfolio Section */}
+   <div classname="row">
+       <div className="col-md-12">
+           <div className="card card-body bg-dark">
+               <div className="row">
+                    <div className="col-md-12">
+                        <h1 className="text-center text-light">Portfolio</h1>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card">
+                            <img src="/portfolio1.png" alt="repo1"/>
+                        </div>
+
+                    </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   
     </Layout>
 
 )
