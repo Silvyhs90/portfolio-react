@@ -7,7 +7,7 @@ const Index= () => (
         {/* Header card */}
         <header className="row">
             <div className="col-md-12">
-                <div className="card card-body bg-primary text-light">
+                <div className="card card-body bg-secondary text-light">
                     <div className="row">
                         <div className="col-md-4">
                             <img src="yo.png" alt="imagen" className="img-fluid"/>
@@ -108,13 +108,13 @@ const Index= () => (
    {/*Portfolio Section */}
    <div classname="row">
        <div className="col-md-12">
-           <div className="card card-body bg-primary">
+           <div className="card card-body bg-secondary">
                <div className="row">
                     <div className="col-md-12">
                         <h1 className="text-center text-light">Portfolio</h1>
                     </div>
                    {
-                       projects.map(({name,description,image,site},i) => (
+                       projects.map(({name,description,image,site, site2},i) => (
                         <div className="col-md-4 p-2" key={i}>
                         <div className="card h-100">
                             <div className="overflow">
@@ -123,7 +123,9 @@ const Index= () => (
                             <div className="card-body">
                                 <h3>{name}</h3>
                                 <p>{description}</p>
-                                <a href={site} target="_blank">Ver Codigo</a>
+                                <a href={site} target="_blank" className="ml-5"> Ver Codigo </a>
+                                <br />
+                                <a href={site2} target="_blank"> Ver Pagina </a>
                             </div>
 
                         </div>

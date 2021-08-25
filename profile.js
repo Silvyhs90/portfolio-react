@@ -154,36 +154,56 @@ export const projects =[
         name:'Sitio web peliculas',
         description:'Consumiendo API de peliculas con ReactJS',
         image:'portfolio1.png',
-        site:'https://github.com/Silvyhs90/moviesapp'
+        site:'https://github.com/Silvyhs90/moviesapp',
+        site2:'https://moviesapi-alpha.vercel.app/'
     },
     {
         name:'Sitio web Personal',
         description:'Web personal hecho con Html/Css/Bootstrap',
         image:'portfolio2.png',
-        site:'https://github.com/Silvyhs90/webpersonalsilvina'
+        site:'https://github.com/Silvyhs90/webpersonalsilvina',
+        site2:'https://silvyhs90.github.io/webpersonalsilvina/'
     },
     {
         name:'The Smiths WebPage',
         description:'FanPage Hecha con Html/Css/Bootstrap',
         image:'portfolio3.png',
-        site:'https://github.com/Silvyhs90/thesmithsweb'
+        site:'https://github.com/Silvyhs90/thesmithsweb',
+        site2:'https://silvyhs90.github.io/thesmithsweb/'
     },
     {
         name:'Sitio web Juego preguntas/respuestas',
         description:'Webpage hecha con Html/Css/Bootstrap/Javascript',
         image:'portfolio4.png',
-        site:'https://github.com/Silvyhs90/friends'
+        site:'https://github.com/Silvyhs90/friends',
+        site2:'https://silvyhs90.github.io/friendspage/'
     },
     {
         name:'Sitio web Musica',
         description:'Webpage hecha con Html/Css/Bootstrap/Php/Javascript',
         image:'portfolio5.png',
-        site:'https://github.com/Silvyhs90/musicworld2'
+        site:'https://github.com/Silvyhs90/musicworld2',
+        site2:'https://musicworldwide90.000webhostapp.com/'
     },
     {
         name:'Juego en Java',
         description:'Juego realizado con Java en Netbeans',
         image:'portfolio6.png',
         site:'https://github.com/Silvyhs90/juegojava1'
+    },
+    {
+        name:'Pagina tributo Maroon 5',
+        description:'Webpage hecha con Html/Css/Bootstrap',
+        image:'portfolio7.png',
+        site:'https://github.com/Silvyhs90/maroon5tributo',
+        site2:'https://silvyhs90.github.io/maroon5tributo/'
+    },
+    {
+        name:'Pagina Reservas Hotel',
+        description:'Webpage hecha con C#, MVC',
+        image:'portfolio8.png',
+        site:'https://github.com/Silvyhs90/maroon5tributo',
+        site2:'https://silvyhs90.github.io/maroon5tributo/'
     }
+
 ]

@@ -32,7 +32,7 @@ const Layout = ({ children, footer = true }) => {
        </main>
       {
           footer && (
-            <footer className="container bg-primary text-light text-center">
+            <footer className="container bg-secondary text-light text-center">
             <div className="container py-4">
                 <h1>&copy;Silvina Saucedo Portfolio</h1>
                 <h3>Mail: silvina.saucedo90@gmail.com</h3>
