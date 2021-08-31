@@ -175,11 +175,11 @@ export const projects =[
         name:'Sitio web Juego preguntas/respuestas',
         description:'Webpage hecha con Html/Css/Bootstrap/Javascript',
         image:'portfolio4.png',
-        site:'https://github.com/Silvyhs90/friends',
-        site2:'https://silvyhs90.github.io/friendspage/'
+        site:'https://github.com/Silvyhs90/friendswebpage',
+        site2:'https://silvyhs90.github.io/friendswebpage/'
     },
     {
-        name:'Sitio web Musica',
+        name:'ABM Sitio web Musica',
         description:'Webpage hecha con Html/Css/Bootstrap/Php/Javascript',
         image:'portfolio5.png',
         site:'https://github.com/Silvyhs90/musicworld2',
@@ -202,8 +202,15 @@ export const projects =[
         name:'Pagina Reservas Hotel',
         description:'Webpage hecha con C#, MVC',
         image:'portfolio8.png',
-        site:'https://github.com/Silvyhs90/maroon5tributo',
-        site2:'https://silvyhs90.github.io/maroon5tributo/'
+        site:'https://github.com/Silvyhs90/WebASP',
+        site2:'https://github.com/Silvyhs90/WebASP'
+    },
+    {
+        name:'Web consumiendo una API',
+        description:'API consumida: https://opentdb.com/api_config.php , reactJs',
+        image:'portfolio9.png',
+        site:'https://github.com/Silvyhs90/quizapp',
+        site2:'https://quizapp-five.vercel.app/'
     }
 
 ]
