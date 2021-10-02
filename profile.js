@@ -211,6 +211,13 @@ export const projects =[
         image:'portfolio9.png',
         site:'https://github.com/Silvyhs90/quizapp',
         site2:'https://quizapp-five.vercel.app/'
+    },
+    {
+        name:'"Alex"',
+        description:'Asistente virtual hecho en Python',
+        image:'portfolio10.png',
+        site:'https://github.com/Silvyhs90/Alex',
+        site2:'https://github.com/Silvyhs90/Alex'
     }
 
 ]
