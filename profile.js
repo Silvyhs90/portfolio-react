@@ -48,6 +48,10 @@ export const skills = [
         percentage: 60,
     },
     {
+        skill: 'Python',
+        percentage: 60,
+    },
+    {
         skill: 'UX/UI',
         percentage: 70,
     },
@@ -214,10 +218,24 @@ export const projects =[
     },
     {
         name:'"Alex"',
-        description:'Asistente virtual hecho en Python',
+        description:'Asistente virtual realizado con Python',
         image:'portfolio10.png',
         site:'https://github.com/Silvyhs90/Alex',
         site2:'https://github.com/Silvyhs90/Alex'
+    },
+     {
+        name:'"Reproductor MP3"',
+        description:'Reproductor MP3 realizado con Python',
+        image:'portfolio11.png',
+        site:'https://github.com/Silvyhs90/ReproductorMusicaPython',
+        site2:'https://github.com/Silvyhs90/ReproductorMusicaPython'
+    },
+     {
+        name:'"Entrenamiento/Reconocimiento de Imagenes mediante TensorFlow.js"',
+        description:'Asistente virtual hecho en Python',
+        image:'portfolio12.png',
+        site:'https://github.com/Silvyhs90/ReconocimientoImagenes',
+        site2:'https://github.com/Silvyhs90/ReconocimientoImagenes'
     }
 
 ]
