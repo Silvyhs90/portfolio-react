@@ -226,16 +226,16 @@ export const projects =[
      {
         name:'"Reproductor MP3"',
         description:'Reproductor MP3 realizado con Python',
-        image:'portfolio11.png',
+        image:'portfolio12.png',
         site:'https://github.com/Silvyhs90/ReproductorMusicaPython',
-        site2:'https://github.com/Silvyhs90/ReproductorMusicaPython'
+        site2:''
     },
      {
         name:'"Entrenamiento/Reconocimiento de Imagenes mediante TensorFlow.js"',
-        description:'Asistente virtual hecho en Python',
-        image:'portfolio12.png',
+        description:'Entrenamiento/Reconocimiento de Imagenes mediante TensorFlow.js, Ml5.js y P5.js',
+        image:'portfolio11.png',
         site:'https://github.com/Silvyhs90/ReconocimientoImagenes',
-        site2:'https://github.com/Silvyhs90/ReconocimientoImagenes'
+        site2:'https://silvyhs90.github.io/ReconocimientoImagenes'
     }
 
 ]
