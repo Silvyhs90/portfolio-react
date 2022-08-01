@@ -16,8 +16,8 @@ const Index= () => (
                             <h1>Silvina Saucedo</h1>
                             <h3>FrontEnd Developer</h3>
                         <p>
-                        Mi nombre es Silvina Saucedo, tengo 30 años, estoy cursando la carrera de Analista de Sistemas de Computación. Cuento con conocimientos en Desarrollo Front y Back-end, utilizando tecnologías 
-                        como JAVASCRIPT, JAVA, POO, MySQL, HTML, CSS, Bootstrap, PHP, C#, Git y Paquete Office.
+                        Mi nombre es Silvina Saucedo, tengo 31 años, estoy cursando la carrera de Analista de Sistemas de Computación. Cuento con conocimientos en Desarrollo Front y Back-end, utilizando tecnologías 
+                        como JAVASCRIPT, JAVA, POO, consultas en base de datos MySQL, Python, HTML, CSS, Bootstrap, PHP, C#, Git y Paquete Office.
                         Además, tengo algunos conocimientos en UX/UI, Photoshop, InVision, Material Desing y Gnu/Linux.
                         Soy una persona dispuesta al trabajo en equipo, organizada, orientada a objetivos, a la resolución de problemas, creativa y detallista. Mi objetivo principal es trabajar en proyectos desafiantes, aprender y que me brinden la experiencia necesaria para seguir progresando
                         </p>

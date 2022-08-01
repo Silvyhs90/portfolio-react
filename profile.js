@@ -9,7 +9,7 @@ export const skills = [
     },
     {
         skill: 'React',
-        percentage: 80,
+        percentage: 60,
     },
     {
         skill: 'Java',
@@ -29,11 +29,11 @@ export const skills = [
     },
     {
         skill: 'CSS',
-        percentage: 80,
+        percentage: 90,
     },
     {
         skill: 'GNU/Linux',
-        percentage: 50,
+        percentage: 60,
     },
     {
         skill: 'Windows',
@@ -45,11 +45,11 @@ export const skills = [
     },
     {
         skill: 'C#',
-        percentage: 60,
+        percentage: 50,
     },
     {
         skill: 'Python',
-        percentage: 60,
+        percentage: 70,
     },
     {
         skill: 'UX/UI',
@@ -57,7 +57,7 @@ export const skills = [
     },
     {
         skill: 'Bootstrap',
-        percentage: 70,
+        percentage: 90,
     },
     {
         skill: 'Photoshop',
@@ -100,12 +100,6 @@ export const schools = [
         name:'Analista de sistemas',
         from:2019,
         to:'Actualidad'
-    },
-    {
-        school :'Inmaculada Concepcion de Maria',
-        name:'Bachiller secundario',
-        from:2003,
-        to:2008
     }
 ]
 
@@ -139,6 +133,12 @@ export const academics = [
         where: 'Escuela Multimedial Da Vinci',
         from:' Sep 2020',
         to:' Oct 2020'
+    },
+    {
+        name:'Accademy IT Salesforce/ Testing QA con Selenium',
+        where: 'Accenture',
+        from:' Abril 2022',
+        to:' Mayo 2022'
     },
 ]
 
